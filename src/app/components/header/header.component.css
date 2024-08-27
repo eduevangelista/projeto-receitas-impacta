@@ -1,0 +1,99 @@
+/* nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid #777;
+}
+
+.brand, .links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand-image{
+  width: 40px;
+  margin-right: 0.6em;
+}
+
+.brand h2{
+  transition: .4s;
+}
+
+.brand:hover > h2 {
+  color: #dec129;
+}
+
+.links li {
+  margin-right: 1em;
+  list-style: none;
+}
+
+.links a{
+  padding: .1em .3em;
+}
+
+#add a {
+  color: #dec129;
+}
+
+#add a:hover{
+  background-color: #efff;
+} */
+
+
+/* Navegação */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid #333; /* Borda escura */
+  background-color: #2c2c2c; /* Cinza tom médio opaco para o fundo do nav */
+}
+
+.brand, .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-image {
+  width: 40px;
+  margin-right: 0.6em;
+}
+
+.brand h2 {
+  color: #e0e0e0; /* Texto claro da marca */
+  transition: color 0.4s ease;
+}
+
+.brand:hover > h2 {
+  color: #1e90ff; /* Azul vibrante para o hover */
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  margin-right: 1em;
+  list-style: none;
+}
+
+.links a {
+  color: #e0e0e0; /* Texto claro dos links */
+  padding: 0.1em 0.3em;
+  transition: color 0.4s ease;
+}
+
+.links a:hover {
+  color: #1e90ff; /* Azul vibrante para o hover nos links */
+}
+
+#add a {
+  color: #1e90ff; /* Azul vibrante para o link de adicionar */
+}
+
+#add a:hover {
+  background-color: #003366; /* Azul escuro para o fundo do link de adicionar no hover */
+  color: #e0e0e0; /* Texto claro no hover */
+}

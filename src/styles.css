@@ -1,0 +1,106 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color:#444;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+  text-decoration: none;
+  color: #444;
+  transition: 0.4s;
+}
+
+a:hover{
+  color: #1682b4;
+}
+
+form{
+  width:450px ;
+  margin: 0 auto;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-group label{
+  font-weight: bold;
+  font-size: .9em;
+  margin-bottom: .4em;
+}
+
+.form-group input,
+.form-group textarea{
+  padding: .6em;
+  color: #777;
+  font-size: 0.8em;
+}
+
+input[type="submit"]{
+  background-color: #EFEFEF;
+  border: 2px solid transparent;
+  pad: .6em 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: .4s;
+}
+
+input[type="submit"]:hover{
+  color:#1682b4;
+  border-color:#1682b4;
+  background-color: transparent;
+}
+
+.validation-error p{
+color: #DC3545;
+margin-top: 0.4em;
+border-left: 3px solid  #DC3545;
+padding-left:.2em ;
+}
+
+
+.edit-btn{
+  height: 48px;
+}
+
+.edit-btn,
+.remove-btn{
+  border: 1px solid #EFEFEF;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.4s;
+  height: 40px;
+}
+
+.edit-btn,
+.edit-btn path{
+  border-color:#007bff;
+  color:#007bff;
+}
+
+.edit-btn:hover,
+.edit-btn:hover path{
+  background-color:#007bff;
+  color:#fff;
+}
+
+
+.remove-btn,
+.remove-btn path{
+  border-color:#DC3545;
+  color:#DC3545;
+}
+
+.remove-btn:hover,
+.remove-btn:hover path{
+  background-color:#DC3545;
+  color:#fff;
+}

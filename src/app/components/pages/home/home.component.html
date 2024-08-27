@@ -1,0 +1,35 @@
+<div class="home-container">
+  <h1>Veja as receitas do momento</h1>
+  <div class="search-container">
+    <form>
+      <img src="../../../../assets/images/lupa.svg">
+      <input type="text" placeholder="Encontre sua próxima refeição favorita..." (input)="search($event)">
+    </form>
+  </div>
+ <div *ngIf="moments.length > 0; else noMoments">
+<div class="moments-container">
+<div class="moment" *ngFor="let moment of moments">
+  <img src="{{baseApiUrl}}uploads/{{moment.image}}">
+    <h3 style="margin-left: 70px">{{moment.title}}</h3>
+        <p class="date" style="margin-left: 60px">Em: {{moment.created_at}}</p>
+    <p style="margin-left: 60px">Comentários: {{moment.coments}}</p>
+    <p style="margin-left: 60px"><a routerLink="moments/{{moment.id}}">Detalhes</a></p>
+  </div>
+
+
+</div>
+
+ </div>
+
+
+ <ng-template #noMoments> <h1>Não há receitas cadastradas!</h1>  </ng-template>
+
+
+</div>
+
+
+
+
+
+
+

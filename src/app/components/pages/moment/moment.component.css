@@ -1,0 +1,56 @@
+.moment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+h1{
+  margin-bottom: 1em;
+}
+
+img{
+  max-width: 500px;
+  margin-bottom: 0 auto 1em;
+}
+
+.about-moment, .actions{
+border-bottom: 1px solid #ccc;
+padding: 1.2em;
+width: 100%;
+}
+
+.actions{
+background-color: #eee;
+}
+
+.coments{
+margin-bottom: 1em;
+padding: 1.5em 0;
+}
+
+.about-moment h3,
+.actions h3,
+.coments h3{
+  margin-bottom: 1em;
+}
+
+
+
+.description-textarea {
+  width: 100%; /* Preenche o contêiner pai */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ddd; /* Borda sutil */
+  border-radius: 4px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.5; /* Altura da linha */
+  resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+.validation-error {
+  color: red; /* Cor do texto de erro */
+  margin-top: 5px; /* Espaço acima do texto de erro */
+}

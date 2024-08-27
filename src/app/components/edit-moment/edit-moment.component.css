@@ -1,0 +1,22 @@
+/* h2{
+  text-align: center;
+    margin-bottom: 1em;
+    font-size: 2.2em;
+}
+
+h2 span{
+  color: #dec129
+} */
+
+/* Estilo para h2 */
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2.2em;
+  color: #535353; /* Texto claro para o h2 */
+}
+
+/* Estilo para span dentro de h2 */
+h2 span {
+  color: #1e90ff; /* Azul vibrante para destaque no span */
+}
