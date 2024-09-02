@@ -6,7 +6,8 @@
  -- AdonisJs
  -- Banco MongoDB
 
- ![image](https://github.com/user-attachments/assets/fa25d341-2ec7-4779-97df-b8fce3e587d2)
+![image](https://github.com/user-attachments/assets/3364bbff-c8e9-4818-9989-aba001f63bae)
+
 
 
 ## Development server
